@@ -1,0 +1,15 @@
+.single {
+    padding: 2px 16px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    border-left: 8px solid rgb(236, 231, 231);
+    
+}
+.single:hover {
+    border-left: 8px solid #4979ff;
+    box-shadow: 2px 3px 5px  thistle;
+}
+.single h3 {
+    color: rgb(236, 87, 17);
+}
