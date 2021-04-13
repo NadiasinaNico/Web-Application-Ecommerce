@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import styles from '../styles/Home.module.css';
 
 const Navbar = () => {
     return (
@@ -7,11 +8,13 @@ const Navbar = () => {
         <div className="logo">
         <Image src="/ninja.png" width={35} height={22} />
         AJID Mada
+        
             </div>
-            
-          <Link href="/"><a>Home</a></Link>
-          <Link href="/about"><a>About</a></Link>
-          <Link href="/service"><a>Service</a></Link>
+            <input className={styles.inputs} placeholder="Search Products ..." /> 
+            <a className={styles.btnse}>SEARCH</a>
+          <Link href="/"><a > AJID MADA</a></Link>
+          <Link href="/service"><a>CART</a></Link>
+          <Link href="/about"><a>SIGN IN</a></Link>
         
         </nav>
     )

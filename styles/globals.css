@@ -12,13 +12,29 @@ a{
   margin: 0 auto;
 }
 nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
+  margin: 0px;
+  padding: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
+  background: rgb(92, 121, 122);
+
   
+}
+.navbar {
+  margin: 2px 2px 3px 1px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+ margin-left: 60px;
+ color:rgb(126, 116, 116);
+ font-weight: bold;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 nav a {
   margin-left: 12px;

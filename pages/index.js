@@ -8,17 +8,23 @@ export default function Home() {
     <Head>
       <title>AJID Mada List | Home</title>
     </Head>
-   <div>
-     <h1 className={styles.title}>AJID Mada</h1>
-     <p className={styles.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nobis dolores magnam temporibus
-      dignissimos ea aperiam iste, perspiciatis laborum, incidunt unde voluptatum qui
-     </p> 
-     <p className={styles.text}>Explicabo molestiae ipsam totam hic? Est sint at voluptate atque obcaecati vero explicabo odio harum labore saepe!</p>
+   <div className={styles.containers}>
+     <h1 className={styles.title}>SHOPPING CART</h1>
+     
   <Link href="/service">
-    <a className={styles.btn}>ALL service</a>
+    <a className={styles.btn}>ALL PRODUCTS</a>
   </Link>
  
    </div>
+   <div className={styles.containere}>
+     <h1>SUBTOTAL</h1>
+     <p>$234</p>
+     <Link href="/ajoutercart">
+       <a className={styles.btn}>PROCED TO CHECKOUT</a>
+     </Link>
+
+   </div>
+
    </>
   )
 }
